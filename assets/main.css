@@ -1,0 +1,51 @@
+body {
+    background: #222222;
+    color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+a {
+    color: red;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+li {
+    margin:0.4rem 0
+}
+
+p
+{
+    line-height: 24px;
+    font-size: 16px;
+    filter: brightness(90%);
+}
+
+a.footer-link:link {
+    color: #f5deb370;
+}
+
+a.footer-link:visited {
+    color: #f5deb370;
+}
+
+a.footer-link {
+    color: #f5deb370;
+}
+
+.article-note {
+    color: #f5deb370;
+}
+
+.container {
+    width: 620px;
+    margin: auto;
+}
+
+li {
+    color: crimson
+}
