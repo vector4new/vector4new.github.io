@@ -22,7 +22,23 @@
 </head>
 
 <body>
+    <h1 id="vector">Vector4.new(x, y, z, q)</h1>
     <h3><a href="/about">About</a></h3>
+
+    <script>
+        function getRandomValue() {
+            return Math.floor(Math.random() * 201) - 100;
+        }
+
+        const x = getRandomValue();
+        const y = getRandomValue();
+        const z = getRandomValue();
+        const q = getRandomValue();
+
+        const vectorText = `Vector4.new(${x}, ${y}, ${z}, ${q})`;
+        document.getElementById("vector").textContent = vectorText;
+        document.title = vectorText;
+    </script>
 </body>
 
 </html>
